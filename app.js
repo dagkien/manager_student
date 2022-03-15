@@ -19,6 +19,8 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/',indexRouter);
-
+app.get('/', function(req,res,next){
+    res.send("Anh em nhóm 5 mãi đỉnh")
+})
 
 module.exports = app;
