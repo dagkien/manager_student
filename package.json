@@ -1,0 +1,33 @@
+{
+  "name": "ejs",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon node ./bin/www"
+  },
+  "dependencies": {
+    "axios": "^0.26.1",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "lodash": "^4.17.21",
+    "mongodb": "^4.4.1",
+    "morgan": "~1.9.1",
+    "oracledb": "^5.3.0"
+  },
+  "description": "; ----------- Tổ chức scss ------------",
+  "main": "app.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dagkien/manager_student.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dagkien/manager_student/issues"
+  },
+  "homepage": "https://github.com/dagkien/manager_student#readme"
+}
